@@ -1,0 +1,94 @@
+body {
+	background: rgb(135, 230, 202);
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	margin-top: 30px;
+}
+
+header .nav {
+	min-height: 80px;
+	overflow: hidden;
+	background: #fff;
+}
+
+/* --- LOGO --- */
+header .logo h2,
+header .logo span,
+header .logo p {
+	font-size: 16px;
+	display: inline-block;
+	margin: 0;
+}
+
+header .logo h2 {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+header .logo .icono { color:#bfbfbf; }
+
+header .logo p { color: #777777; }
+
+/* --- MENU --- */
+header .menu {
+	padding: 0;
+}
+
+header .menu a {
+	display: block;
+	padding: 0 30px;
+	text-decoration: none;
+	color: #fff;
+}
+
+header .menu a div span {
+	font-weight: 600;
+}
+
+header .menu .c-1 { background: #3da5e2; }
+header .menu .c-2 { background: #005385; }
+header .menu .c-3 { background: #003855; }
+
+header .menu .c-1:hover { background: #1ba0ef; }
+header .menu .c-2:hover { background: #00426a; }
+header .menu .c-3:hover { background: #002d44; }
+
+
+/* --- SLIDER --- */
+.slider {
+	margin-bottom: 40px;
+}
+
+.slider .col {
+	padding: 0;
+}
+
+.slider .carousel .slide {
+	padding: 0;
+}
+
+/* --- GALERIA IMAGENES --- */
+.imagenes .titulo {
+	padding: 40px 0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.imagenes .contenedor-imagen {
+	margin-bottom: 40px;
+	max-height: 180px;
+	overflow: hidden;
+}
+
+.imagenes .contenedor-imagen a {
+	background: #3da5e2;
+	display: inline-block;
+}
+
+.imagenes .contenedor-imagen:hover img {
+	opacity: .3;
+}
